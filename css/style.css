@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400;700&family=Lato&display=swap');
+
+body {
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    color: #fff;
+}
+
+h1, h5 {
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+    line-height: 1.2;
+    text-transform: capitalize;
+}
+
+h1 {
+    font-weight: 200;
+    font-size: 60px;
+}
+
+h5 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+#hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bg.jpg) no-repeat top center / cover;
+    height: 100vh;
+    position: relative;
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.v-middle {
+    position: absolute;
+    width: 100%;
+    top: 45%;
+    left: 0;
+    transform: translate(0%, -50%);
+}
+
+.caption {
+    text-align: center;
+}
+
+.caption h1 b {
+    font-weight: 400;
+}
+
+.ah-headline.clip .ah-words-wrapper::after {
+    background-color: #fff;
+    height: 80%;
+}
+
+.social-icon {
+    margin-top: 30px;
+}
+
+.social-icon ul li a {
+    background: rgba(0,0,0,0.3);
+    padding: 5px;
+    font-size: 16px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+    display: block;
+    text-align: center;
+}
+
+@media screen and (max-width: 767.98px) {
+    h1 {
+        font-size: 35px;
+    }
+    h5 {
+        font-size: 40px;
+    }
+    .v-middle {
+        top: 50%;
+    }
+}
