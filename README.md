@@ -1,2 +1,2 @@
 # animated-headline
-This is my animated-headline-design
+<h3>This is my animated-headline-design</h3>
