@@ -1,2 +1,2 @@
 # animated-headline
-animated-headline-design
+This is my animated-headline-design
